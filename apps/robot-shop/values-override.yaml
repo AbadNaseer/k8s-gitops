@@ -1,0 +1,9 @@
+image:                                                                                                                                                                            
+  repo: robotshop                                                                                                                                                                   
+  version: latest
+  pullPolicy: IfNotPresent                                                                                                                                                          
+                                                                                                                                                                                    
+nodeport: false
+
+redis:
+  storageClassName: local-path
