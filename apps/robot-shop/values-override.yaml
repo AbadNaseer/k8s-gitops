@@ -5,5 +5,8 @@ image:
                                                                                                                                                                                     
 nodeport: false
 
+web:                                                                                                                                                                              
+  replicaCount: 2
+
 redis:
   storageClassName: local-path
