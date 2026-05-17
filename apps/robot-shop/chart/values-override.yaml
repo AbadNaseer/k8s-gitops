@@ -1,12 +1,40 @@
-image:                                                                                                                                                                            
+image:
   repo: abadnaseer24
-  version: 8f5e977
-  pullPolicy: IfNotPresent                                                                                                                                                          
-                                                                                                                                                                                    
+  version: latest
+  pullPolicy: IfNotPresent
+
 nodeport: false
 
-web:                                                                                                                                                                              
+web:
   replicaCount: 2
+  imageTag: latest
+
+cart:
+  imageTag: latest
+
+catalogue:
+  imageTag: latest
+
+dispatch:
+  imageTag: latest
+
+mongodb:
+  imageTag: latest
+
+mysql:
+  imageTag: latest
+
+payment:
+  imageTag: latest
+
+ratings:
+  imageTag: latest
+
+shipping:
+  imageTag: latest
+
+user:
+  imageTag: latest
 
 redis:
   storageClassName: local-path
