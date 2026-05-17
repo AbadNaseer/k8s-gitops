@@ -28,7 +28,7 @@ payment:
   imageTag: ec3d751
 
 ratings:
-  imageTag: latest
+  imageTag: ec3d751
 
 shipping:
   imageTag: latest
