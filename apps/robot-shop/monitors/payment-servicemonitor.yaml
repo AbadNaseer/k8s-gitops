@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: payment
+  namespace: monitoring
+  labels:
+    release: monitoring
+spec:
+  namespaceSelector:
+    matchNames:
+      - robot-shop
+  selector:
+    matchLabels:
+      service: payment
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s
