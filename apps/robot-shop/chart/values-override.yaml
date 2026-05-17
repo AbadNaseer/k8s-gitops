@@ -10,7 +10,7 @@ web:
   imageTag: latest
 
 cart:
-  imageTag: latest
+  imageTag: ec3d751
 
 catalogue:
   imageTag: latest
