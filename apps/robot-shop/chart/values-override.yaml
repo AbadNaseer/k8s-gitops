@@ -19,7 +19,7 @@ dispatch:
   imageTag: latest
 
 mongodb:
-  imageTag: latest
+  imageTag: ec3d751
 
 mysql:
   imageTag: latest
