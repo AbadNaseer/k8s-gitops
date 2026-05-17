@@ -16,7 +16,7 @@ catalogue:
   imageTag: ec3d751
 
 dispatch:
-  imageTag: latest
+  imageTag: 4422f46
 
 mongodb:
   imageTag: ec3d751
