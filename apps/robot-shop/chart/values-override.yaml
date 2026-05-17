@@ -34,7 +34,7 @@ shipping:
   imageTag: latest
 
 user:
-  imageTag: latest
+  imageTag: ec3d751
 
 redis:
   storageClassName: local-path
