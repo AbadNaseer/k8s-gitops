@@ -25,7 +25,7 @@ mysql:
   imageTag: ec3d751
 
 payment:
-  imageTag: latest
+  imageTag: ec3d751
 
 ratings:
   imageTag: latest
